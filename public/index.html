@@ -2,15 +2,53 @@
 <head>
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    
     <style type="text/css">
+        body{
+            background-image: linear-gradient(rgb(246,148,0), white);
+        }
+        #me{
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
 
+        }
+        h1{
+            font-size: 75px;
+            color: white;
+            font-family: 'Slabo 27px', serif;
+            text-align: center;
+
+        }
+        #message{
+            width: 170px;
+            height: 70px;
+            margin-top: 5px;
+        }
+        form {
+            margin:10px;
+        }
+        #connect {
+            text-align: center;
+        }
+        .ghub {
+            margin: 10px 0px 20px 50px;
+        }
+        .lkin {
+            margin: 10px 50px 20px 0px;
+        }
     </style>
-</head>
 <body>
 <h1>Trevor Jakeman</h1>
-<h2>Connect</h2>
-  <a href="www.linkedin.com/in/trevor-jakeman-1303" <i class="fab fa-linkedin" style="color: #0077b5"></i></a>
-  <a href="https://github.com/tjaketheman" <i class="fab fa-github" style="color: rgb(116,45,140)"></i></a>
+<div id="connect">
+<img id="me" src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/39253563_10209819282197891_4406499685347360768_n.jpg?_nc_cat=111&_nc_ht=scontent-sea1-1.xx&oh=1f4d7a5dce31aae2d44862ce1bf89a93&oe=5CBFA46F"></img>
+  <a href="www.linkedin.com/in/trevor-jakeman-1303" <i class="fab fa-linkedin lkin" style="color: #0077b5;"></i></a>
+  <a href="https://github.com/tjaketheman" <i class="fab fa-github ghub" style="color: rgb(116,45,140);"></i></a>
+</div>
     <form class="emailMe" action="mailto:tjaketheman@yahoo.com">
         Email Me
         <br>
@@ -18,7 +56,7 @@
         <br>
         <input id="message" type="text" placeholder="Message">
         <br>
-        <input type="submit" value="Send">
+        <input type="submit" value="Send" style="margin-top: 5px;">
     </form>
   <h2>About Me</h2>
     <p>I just recently began attending Helio Training Full-Stack Bootcamp, and will be graduating in May.  
